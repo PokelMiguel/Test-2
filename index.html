@@ -1,0 +1,59 @@
+<!DOCTYPE HTML>
+<html>
+  <head>
+    <title>Práctica 1 SSAATT</title>
+    <meta http-equiv="Content-Type" content="text/html"; charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="estilos.css">
+  </head>
+  <body>
+    <div id = header><b>Plataforma de autoevaluación SSAATT</b></div>
+    <div id = bloque>
+        <div id = nav>
+           <h1>Menú Lateral</h1>                
+                <ul>
+                    <li><a href="https://www.ujaen.es/"> Web principal de UJaén</a></li>
+                    <li><a href="https://epsl.ujaen.es/"> EPS de Linares</a></li>
+                    <li><a href="https://www.ujaen.es/departamentos/ingtel/"> Departamento de Ingeniería de Telecomunicación</a></li>
+                </ul>
+        </div>
+        <div id = main><b></b>
+           <h1><b>Contenedor principal</b></h1>
+                <div class = test>              
+                    <div class = test_title>
+                      <h2> Cuestión</h2>
+                    </div>
+                    <div class = question>
+                      <h2> Elemento de sección 1 </h2>
+                        <div class = question_form> Formulario
+                          <h3>Título: <input class ="caja_texto" type="text" name="Título" placeholder="Título de la pregunta" size="50"></h3>
+                          <h3>Enunciado: </h3>
+                              <textarea class="cuadrado" rows="4" cols="50" placeholder="Introduzca el enunciado"></textarea>
+                                  <ul>
+                                      <li>Opcion correcta: <input class ="caja_texto" type="text" name="Opcion_correcta" placeholder="Opción correcta" size="50"></li>
+                                      <li>Opcion incorrecta 1: <input class ="caja_texto" type="text" placeholder="Opción incorrecta 1" name="Opcion_incorrecta_1" size="50"></li>
+                                      <li>Opcion incorrecta 2: <input class ="caja_texto" type="text" placeholder="Opción incorrecta 2"name="Opcion_incorrecta_2" size="50"></li>
+                                  </ul>
+                        </div>
+                    </div>
+                    <input class="button"type="submit" value="Enviar" />
+                    <input class="button"type="reset" value="Borrar" />
+                </div>
+        </div>
+
+        <div id = "aside">
+          <h1><b>Opciones de sección</b></h1>
+          <a title="Logo de la universidad de Jaén" href="https://dv.ujaen.es"><img id = "logo_uja"src ="sources/logo_ujaen.png" alt="Logo de la universidad de Jaén" /></a>
+          <p> Esta página sirve para realizar preguntas tipo test </p>
+        </div>
+        <div id = "oculto"></div>
+    </div>
+    <div id = "footer">
+      <p><strong>Autores: </strong>Miguel Ángel Femenía Vázquez y Jorge Luis Torres Redondo. </p>
+      <p><strong>Asignatura: </strong>Servicios y Aplicaciones Telemáticas. </p>
+      <p><strong>Titulación: </strong>Grado en Ingeniería de tecnologías de telecomunicación /
+        Grado en Ingeniería telemática /
+        Doble Grado Ingeniería de tecnologías de la telecomunicación e Ingeniería telemática  </p>
+      <p><strong>Curso académico:</strong> 2019-2020</p>
+    </div>
+  </body>
+</html>
